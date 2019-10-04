@@ -1,0 +1,26 @@
+.app-header {
+  // height: 50px;
+  // background-color: black;
+  color: white;
+  border: 1px solid #768292;
+  display: grid;
+  font-size: 2rem;
+  grid-template-columns: minmax(auto, 90%) auto auto;
+}
+
+.app-header-link {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  width: max-content;
+  height: calc(100% - 20px);
+  // margin: 0 10px;
+  padding: 10px;
+  &:visited {
+    color: white;
+  }
+}
+
+.app-header-link:not(:first-child):hover {
+  background-color: #828fa0;
+}
